@@ -1,0 +1,49 @@
+{
+    "name": "hjbdev/cs-log-parser-php",
+    "description": "Counter-Strike log parsing in PHP",
+    "keywords": [
+        "hjbdev",
+        "cs-log-parser-php"
+    ],
+    "homepage": "https://github.com/hjbdev/cs-log-parser-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry (hjbdev)",
+            "email": "harry@hjb.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.12",
+        "pestphp/pest": "^2.0",
+        "spatie/ray": "^1.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "CSLog\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CSLog\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
