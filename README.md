@@ -18,7 +18,7 @@ composer require hjbdev/cs-log-parser-php
 ## Usage
 
 ```php
-use CSLog\CSGO\Patterns;
+use CSLog\CS2\Patterns;
 
 $model = Patterns::match($log);
 ```
@@ -37,7 +37,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 - [Harry (hjbdev)](https://github.com/hjbdev)
 - [All Contributors](../../contributors)
-- [eBot](https://github.com/deStrO/eBot-CSGO) (for Global Offensive regex patterns)
+- [eBot](https://github.com/deStrO/eBot-CSGO) (for some of the original Global Offensive patterns, which I have updated and refined for CS2)
 
 ## License
 
