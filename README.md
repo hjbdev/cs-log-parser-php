@@ -4,7 +4,7 @@
 [![Tests](https://img.shields.io/github/actions/workflow/status/hjbdev/cs-log-parser-php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/hjbdev/cs-log-parser-php/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/hjbdev/cs-log-parser-php.svg?style=flat-square)](https://packagist.org/packages/hjbdev/cs-log-parser-php) -->
 
-Parsing Counter-Strike (GO and soon CS2) logs in PHP. Provides typed objects for each log and a class for matching individual log lines.
+Parsing Counter-Strike (2) logs in PHP. Provides typed objects for each log and a class for matching individual log lines.
 
 
 ## Installation
